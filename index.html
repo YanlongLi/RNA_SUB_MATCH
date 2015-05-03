@@ -1,0 +1,51 @@
+<!-- =============================================================================
+#     FileName: index.html
+#         Desc:  
+#       Author: YanlongLi
+#        Email: lansunlong@gmail.com
+#     HomePage: 
+#      Created: 2015-05-03 14:51:30
+#      Version: 0.0.1
+#   LastChange: 2015-05-03 14:51:30
+#      History:
+#               0.0.1 | YanlongLi | init
+============================================================================= -->
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <script type="text/javascript" src="js/lib/jquery-2.1.1.js"></script>
+  <script type="text/javascript" src="js/lib/jquery.selection.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div style="width:100%;">
+    <button id="reload_data">重新加载数据</button>
+    <span>选择的最大长度：</span>
+    <input id="txt_max_sel_length" type="text"/>
+    <table width="100%">
+      <tr width="80%" height="50px">
+        <td>
+          <textarea id="ref_rna" style="height:100%; width:100%"></textarea>
+        </td>
+        <td rowspan="2">
+          <select id="select" multiple="multiple" style="height:100%; width:200px"></select>
+        </td>
+      </tr>
+      <tr height="100px;">
+        <td>
+          <textarea id="seq_rna" style="height:100%; width:100%"></textarea>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <hr></hr>
+  <div id='sequence_wrapper'></div>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>

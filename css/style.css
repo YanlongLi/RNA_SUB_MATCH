@@ -1,0 +1,21 @@
+/* =============================================================================
+#     FileName: style.css
+#         Desc:  
+#       Author: YanlongLi
+#        Email: lansunlong@gmail.com
+#     HomePage: 
+#      Created: 2015-05-03 15:16:19
+#      Version: 0.0.1
+#   LastChange: 2015-05-03 15:16:19
+#      History:
+#               0.0.1 | YanlongLi | init
+============================================================================= */
+body {
+  font-size: 10px;
+}
+span.hilight {
+  background: red;
+}
+textarea {
+  resize: none;
+}
